@@ -14,7 +14,7 @@ Function Get-LibraryReport{
         #show a brief report with only a few columns
         Get-LibraryReport -Path ~/Downloads/example-library-report.txt -Brief
 
-        #show a brief report with only a few columns
+        #show a "Pretty" report (if your terminal is wide enough)
         Get-LibraryReport -Path ~/Downloads/example-library-report.txt -Pretty
 
         #Save a report to a variable
