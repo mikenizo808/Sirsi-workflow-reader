@@ -33,7 +33,7 @@ Function Get-LibraryReport{
         $report | Export-Csv -NoTypeInformation C:\Temp\report.csv
 
         #show pretty report
-        report | Format-Table -AutoSize
+        $report | Format-Table -AutoSize
 
         #or, use the "Pretty" switch
         Get-LibraryReport -Path ~/Downloads/example-library-report.txt -Pretty
